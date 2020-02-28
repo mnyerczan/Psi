@@ -1,0 +1,29 @@
+body {
+    margin          : 0;
+    background-color: rgb(245, 245, 245);
+    font-size       : 15px;
+    font-family: sans-serif;
+}
+a {
+    text-decoration : none;
+    color           : black;
+}
+* {
+    outline         : none;
+}
+
+.header {
+    background-color:#464870;
+    padding         : 25px 15px;
+}
+
+.header a {
+    padding         : 10px 10px;
+    -background-image: linear-gradient(to bottom, #ff4d58, #722126);
+    border-radius   : 5px;
+    color           : rgb(255, 255, 255);
+    -font-weight     : bold;
+}
+.header a:hover {
+    color           : #ccc;
+} 
