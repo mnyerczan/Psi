@@ -50,10 +50,9 @@
      * Az addRout függvény végzi a regisztrációt.
      * Ezen a ponton vesszük fel az egyes controllereket a kapott útvonalakhoz.
      */
-    addRoute('^$', 'homeController');    
-    addRoute('^/$', 'homeController');  
-
-
+    addRoute('', 'homeController');    
+    addRoute('/', 'homeController');  
+    
 
     /**
      * A routing függvény végzi a kikeresést és a controller függvény meghívását.

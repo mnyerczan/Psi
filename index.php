@@ -1,20 +1,20 @@
 <?php
-    
-
-    ini_set('display_errors', 1);
 
     define('APPPATH', 'Application/');
 
     /**
      * Az APPROOT szükséges ahhoz, hogy amennyiben nem nem a webszerver
      * győkérmappájában lakik az alkalmazásunk, a routing helyesen működjön.
+     * 
+     * Pl.: winsql.vereb.dc/diakXX/feladat/index.php
+     *    ekkor:              --> /feladat
      */
-    define('APPROOT', '/Project');       
+    define('APPROOT', '');       
 
     /**
      * Az adatbázis kacsolódásho szükséges adatokat tartalmazó json fájl.
      */
-    $confPath = 'config.json';
+    define('CONFPATH', 'config.json');
    
 
     require_once APPPATH.'Core/functions.php';
