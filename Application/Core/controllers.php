@@ -3,24 +3,26 @@
 function homeController($datas)
 {
     view([
+        "home"  => 'active',
         "title" => "- Home",
-        'view' => 'home'
+        'view'  => 'home'
+    ]);
+}
+
+function aboutController($datas)
+{
+    view([
+        "about"  => 'active',
+        "title" => "- About",
+        'view'  => 'about'
     ]);
 }
 
 
 function notFoundController()
 {
-    view([
+    view([        
         "title" => "- Page Not Found",
         'view' => '_404'
-    ]);    
-}
-
-function errorController()
-{
-    view([
-        "title" => "- Something is wrong while page loaded",
-        'view' => '_error'
     ]);    
 }

@@ -1,7 +1,7 @@
 body {
     margin          : 0;
     background-color: rgb(250, 250, 250);
-    font-size       : 16px;
+    font-size       : 14px;
     font-family: sans-serif;
 }
 a {
@@ -13,16 +13,21 @@ a {
 }
 /*---- HEADER ----*/
 .header {
-    background-color:#464870;
-    padding         : 25px 15px;
+    background-color:#26273d;
+}
+
+.header a.active{
+    background-color : rgb(255, 60, 0);
+    color            : inherit;
+    -font-weight      : bold;
 }
 
 .header a {
-    padding         : 10px 10px;
-    border-radius   : 5px;
-    color           : rgb(255, 255, 255);    
+    padding         : 20px 15px;
+    display         : inline-block;
+    color           : rgb(255, 255, 255);        
 }
-.header a:hover {
+.header a:hover:not(.active) {
     color           : #ccc;
 } 
 /*---- Home page ----*/
@@ -30,6 +35,14 @@ a {
     font-size       : 30px;
     text-align      : center;
     margin          : 50px auto;  
+}
+/*---- About ----*/
+.about-container {
+    font-size       : 20px;
+    text-align      : center;
+    width           : 60%;
+    margin          : 50px auto;  
+    font-style      : italic;
 }
 /*---- ERROR - 404 ----*/
 .error-cont {
