@@ -16,12 +16,10 @@ a {
     background-color:#26273d;
 }
 
-.header a.active{
-    background-color : rgb(255, 60, 0);
-    color            : inherit;
-    -font-weight      : bold;
+.header a.active {
+    background-color: rgb(255, 60, 0);
+    color           : white;
 }
-
 .header a {
     padding         : 20px 15px;
     display         : inline-block;

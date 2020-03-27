@@ -24,5 +24,5 @@ function notFoundController()
     view([        
         "title" => "- Page Not Found",
         'view' => '_404'
-    ]);    
+    ]);   
 }
