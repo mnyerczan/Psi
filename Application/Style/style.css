@@ -19,7 +19,8 @@ a {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10+ and Edge */
     user-select: none; /* Standard syntax */
-    width           : 100%;
+    width           : calc(100% - 20px );
+    padding         : 0 10px;    
     height          : 60px;
 }
 
@@ -64,7 +65,7 @@ a {
     font-size       : 50px;    
 }
 
-/*---- ERROR - 404 ----*/
+/*---- ERROR ----*/
 .error-cont {
     margin          : auto;
     padding         : 50px 200px 200px 200px;
@@ -75,6 +76,35 @@ a {
     border          : 1px solid #aaa;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+/*---- 404 ----*/
+.ms-404-msg{
+    padding:0 50px;  
+}
+.ms-404-img {
+    width: 1300px;
+    height: 800px;
+}
+@media ( max-width:1350px ), ( max-height: 900px ) {
+    .ms-404-img {
+        width: 1000px;
+        height: 600px;
+    }
+}
+
+@media ( max-width:1000px ), ( max-height: 750px ) {
+    .ms-404-img {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media ( max-width:700px ), ( max-height: 500px ) {
+    .ms-404-img {
+        width: 200px;
+        height: 130px;
+    }
 }
 
 /*---- Buttons ----*/
