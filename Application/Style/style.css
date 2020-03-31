@@ -15,26 +15,27 @@ a {
 
 /*---- HEADER ----*/
 .header {
-    background-color:#26273d;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10+ and Edge */
-    user-select: none; /* Standard syntax */
     width           : calc(100% - 20px );
     padding         : 0 10px;    
     height          : 60px;
+    background-color:#0e0f24;
+    
+    -ms-user-select : none; /* IE 10+ and Edge */
+    user-select     : none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
 }
 
 .header a.active {
-    background-color: rgb(255, 60, 0);
+    border-bottom   : 4px solid rgb(255, 60, 0);
     color           : white;    
-    height          : 1.6em;    
+    height          : 1.2em;      
 }
 
 .header a {
     position        : relative;
     padding         : 20px 15px;
     display         : inline-block;
-    color           : rgb(255, 255, 255);          
+    color           : white;          
 }
 .header a.about {
     float           : right;
@@ -118,6 +119,6 @@ a {
     color           : white;
 }
 .btn-rng {
-    background-image: linear-gradient(to bottom, rgb(189, 123, 0), rgb(184, 101, 0));
+    background-image: linear-gradient(to bottom, rgb(255, 185, 55), rgb(139, 77, 0));
     color           : white;
 }
