@@ -12,7 +12,7 @@ function getConfig($confPath)
 }
 
 /**
- * @param string $message Message about the error
+ * @param string $message Kiírandó Hibaüzenet
  */
 function errorLog($message)
 {   
