@@ -8,7 +8,7 @@ abstract class Controller
      * 
      * @param array $datas Datas from controller to view
      */
-    function view($datas)
+    public function view($datas)
     {
         extract($datas);
 
