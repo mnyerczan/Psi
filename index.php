@@ -65,7 +65,10 @@
     /**
      * Az Application objektum indítja az alkalmazást és végzi el a megfelelő kontroller meghívását.
      */
-    require_once APPPATH.'Core/Application.php';      
+    require_once APPPATH.'Core/Application.php';     
+    require_once APPPATH.'Core/functions.php';
+    require_once APPPATH.'Core/Controller.php';
+    require_once APPPATH.'Database/Database.php';     
     
     (new Application($cleanedUri))->Index();
     

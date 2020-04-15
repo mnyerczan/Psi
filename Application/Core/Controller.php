@@ -2,6 +2,7 @@
 
 abstract class Controller
 {
+    protected $db;
     /**
      * A view függvény a kapott adatokat kibontja és átadja a layoutnak.
      * A $datas-nak tartalmaznia kell egy 'view' és egy 'title' kulcsot!

@@ -1,10 +1,9 @@
 <?php 
 
 class AboutController extends Controller
-{    
-
+{        
     function __construct($matches)
-    {       
+    {      
         $this->Index();
     }
 

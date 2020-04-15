@@ -1,9 +1,5 @@
 <?php 
 
-require_once APPPATH.'Core/functions.php';
-require_once APPPATH.'Core/Controller.php';
-require_once APPPATH.'Database/database.php';
-
 class Application 
 {
     private $routes = [],
