@@ -1,1 +1,1 @@
-<div class="about-container"><div class="name-plate">&#936;&#963;&#953;</div><sub>&#127279;  Open Source and CopyLeft Licenses <br><b>Pszí<sup>&#174;</sup></b></sub>    </div>
+<div class="about-container"><div class="name-plate">&#936;&#963;&#953;</div><sub>&#127279;  Open Source and CopyLeft Licenses <br><b>Psi<sup>&#174;</sup></b></sub></div>
